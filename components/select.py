@@ -5,6 +5,7 @@ from components.survey import Survey
 
 class Select(discord.ui.Select):
 
+
     def __init__(self, bot):
         self.bot = bot
         super().__init__(placeholder="Corso", options=self.__generate_options())

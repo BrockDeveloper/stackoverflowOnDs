@@ -1,6 +1,6 @@
 import os
-from dotenv import load_dotenv
 import discord
+from dotenv import load_dotenv
 from connection.client import Client
 
 

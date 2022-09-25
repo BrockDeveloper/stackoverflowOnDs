@@ -14,8 +14,8 @@ class Survey(Modal):
         self.course = course
         self.bot = bot
 
-        self.add_item(InputText(label="Short Input", placeholder="Titolo"))
-        self.add_item(InputText(label= "Long Input", placeholder="Domanda completa", value= "", style=discord.InputTextStyle.long))
+        self.add_item(InputText(label="Titolo", placeholder="Titolo"))
+        self.add_item(InputText(label= "Domanda completa", placeholder="Domanda completa", value= "", style=discord.InputTextStyle.long))
 
 
     async def callback(self, interaction: discord.Interaction):
